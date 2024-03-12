@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: relative;
+}
+
+.rectangle {
+    width: 100vw;
+    height: 100vh;
+    background: #292938;
+    opacity: 0.52;
+    position: absolute;
+}
+
+
+
+.image {
+    position: absolute;
+    top: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 18%;
+
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.navbar {
+    position: relative;
+    width: 48%;
+    height: 50px;
+    background-color: #292938;
+    opacity: 0.7;
+    left: 0;
+    right: 0;
+    top: 160px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text:hover {
+    text-decoration: underline;
+}
+
+.menubar {
+    position: relative;
+    width: 62%;
+    height: 50px;
+    background-color: #292938;
+    opacity: 0.7;
+    left: 0;
+    right: 0;
+    top: 160px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.textstatic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuimage {
+    position: relative;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
+}
+
+.roasters {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+.account-text,
+.cart-text {
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.account-text {
+    right: 120px;
+}
+
+.cart-text {
+    right: 50px;
+}
+
+.account-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cart-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search-bar {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+  }
+  
+  .search-bar input {
+    width: 200px; 
+    padding: 8px;
+    color: white;
+    font-family: "Spectral";
+    font-size: 20px;
+    border-radius: 15px;
+    opacity: 50;
+  }
