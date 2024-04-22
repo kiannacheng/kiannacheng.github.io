@@ -1,0 +1,657 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.shelf {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.shelf img {
+    width: 1150px;
+    height: auto;
+}
+.new {
+    position: absolute;
+    bottom: 82px;
+    left: 65%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.new img {
+    width: 450px;
+    height: auto;
+    cursor: pointer;
+}
+.new:hover {
+    bottom: 65px;
+}
+.berkeley {
+    position: absolute;
+    bottom: 226px;
+    left: 65%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.berkeley img {
+    width: 450px;
+    height: auto;
+    cursor: pointer;
+}
+.berkeley:hover {
+    bottom: 209px;
+}
+.yakama {
+    position: absolute;
+    bottom: 82px;
+    left: 48.6%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.yakama img {
+    width: auto;
+    height: 450px;
+    cursor: pointer;
+}
+.yakama:hover {
+    bottom: 65px;
+    left: 47%;
+}
+.newyork {
+    position: absolute;
+    bottom: 82px;
+    left: 42.3%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.newyork img {
+    width: auto;
+    height: 450px;
+    cursor: pointer;
+}
+.newyork:hover {
+    bottom: 65px;
+    left: 40%;
+}
+.puertorico {
+    position: absolute;
+    bottom: 82px;
+    left: 35.72%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.puertorico img {
+    width: auto;
+    height: 450px;
+    cursor: pointer;
+}
+.puertorico:hover {
+    bottom: 65px;
+    left: 34%;
+}
+.nybook {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.nybook img {
+    width: 1000px;
+    height: auto;
+}
+.timesquare {
+    position: absolute;
+    top: 150px;
+    left: 315px;
+}
+.timesquare img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.timesquare img:hover {
+    filter: brightness(100%);
+}
+.centralpark {
+    position: absolute;
+    top: 150px;
+    left: 525px;
+}
+.centralpark img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.centralpark img:hover {
+    filter: brightness(100%);
+}
+.rockerfeller {
+    position: absolute;
+    top: 430px;
+    left: 315px;
+}
+.rockerfeller img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.rockerfeller img:hover {
+    filter: brightness(100%);
+}
+.stage {
+    position: absolute;
+    top: 430px;
+    left: 525px;
+}
+.stage img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.stage img:hover {
+    filter: brightness(100%);
+}
+.hadestown {
+    position: absolute;
+    top: 150px;
+    right: 315px;
+}
+.hadestown img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.hadestown img:hover {
+    filter: brightness(100%);
+}
+.sweeney {
+    position: absolute;
+    top: 430px;
+    right: 525px;
+}
+.sweeney img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.sweeney img:hover {
+    filter: brightness(100%);
+}
+.gatsby {
+    position: absolute;
+    top: 430px;
+    right: 315px;
+}
+.gatsby img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.gatsby img:hover {
+    filter: brightness(100%);
+}
+.bookmark {
+    position: absolute;
+    top: 120.5px;
+    right: 580px;
+}
+.bookmark img {
+    width: 108px;
+    height: auto;
+    cursor: pointer;
+}
+.yakbook {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.yakbook img {
+    width: 1000px;
+    height: auto;
+}
+.washington {
+    position: absolute;
+    top: 150px;
+    left: 315px;
+}
+.washington img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.washington img:hover {
+    filter: brightness(100%);
+}
+.whiteswan {
+    position: absolute;
+    top: 150px;
+    left: 525px;
+}
+.whiteswan img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.whiteswan img:hover {
+    filter: brightness(100%);
+}
+.bonfire {
+    position: absolute;
+    top: 430px;
+    left: 315px;
+}
+.bonfire img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.bonfire img:hover {
+    filter: brightness(100%);
+}
+.sacredroad {
+    position: absolute;
+    top: 430px;
+    left: 525px;
+}
+.sacredroad img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.sacredroad img:hover {
+    filter: brightness(100%);
+}
+.horses {
+    position: absolute;
+    top: 150px;
+    right: 315px;
+}
+.horses img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.horses img:hover {
+    filter: brightness(100%);
+}
+.worksite {
+    position: absolute;
+    top: 430px;
+    right: 525px;
+}
+.worksite img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.worksite img:hover {
+    filter: brightness(100%);
+}
+.tater {
+    position: absolute;
+    top: 430px;
+    right: 315px;
+}
+.tater img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.tater img:hover {
+    filter: brightness(100%);
+}
+.ricobook {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.ricobook img {
+    width: 1000px;
+    height: auto;
+}
+.escambron {
+    position: absolute;
+    top: 150px;
+    left: 315px;
+}
+.escambron img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.escambron img:hover {
+    filter: brightness(100%);
+}
+.oldsanjuan {
+    position: absolute;
+    top: 150px;
+    left: 525px;
+}
+.oldsanjuan img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.oldsanjuan img:hover {
+    filter: brightness(100%);
+}
+.elgato {
+    position: absolute;
+    top: 430px;
+    left: 315px;
+}
+.elgato img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.elgato img:hover {
+    filter: brightness(100%);
+}
+.lastinajas {
+    position: absolute;
+    top: 430px;
+    left: 525px;
+}
+.lastinajas img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.lastinajas img:hover {
+    filter: brightness(100%);
+}
+.monserrate {
+    position: absolute;
+    top: 150px;
+    right: 315px;
+}
+.monserrate img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.monserrate img:hover {
+    filter: brightness(100%);
+}
+.decondado {
+    position: absolute;
+    top: 430px;
+    right: 525px;
+}
+.decondado img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.decondado img:hover {
+    filter: brightness(100%);
+}
+.condado {
+    position: absolute;
+    top: 430px;
+    right: 315px;
+}
+.condado img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.condado img:hover {
+    filter: brightness(100%);
+}
+.berkbook {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.berkbook img {
+    width: 1000px;
+    height: auto;
+}
+.berkhills {
+    position: absolute;
+    top: 150px;
+    left: 315px;
+}
+.berkhills img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.berkhills img:hover {
+    filter: brightness(100%);
+}
+.spring {
+    position: absolute;
+    top: 150px;
+    left: 525px;
+}
+.spring img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.spring img:hover {
+    filter: brightness(100%);
+}
+.firetrails {
+    position: absolute;
+    top: 430px;
+    left: 315px;
+}
+.firetrails img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.firetrails img:hover {
+    filter: brightness(100%);
+}
+.marina {
+    position: absolute;
+    top: 430px;
+    left: 525px;
+}
+.marina img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.marina img:hover {
+    filter: brightness(100%);
+}
+.unit1 {
+    position: absolute;
+    top: 150px;
+    right: 315px;
+}
+.unit1 img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.unit1 img:hover {
+    filter: brightness(100%);
+}
+.picnic {
+    position: absolute;
+    top: 430px;
+    right: 525px;
+}
+.picnic img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.picnic img:hover {
+    filter: brightness(100%);
+}
+.basketball {
+    position: absolute;
+    top: 430px;
+    right: 315px;
+}
+.basketball img {
+    width: 175px;
+    height: auto;
+    filter: brightness(90%);
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+.basketball img:hover {
+    filter: brightness(100%);
+}
+.calendar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 82px;
+    left: 15.8%;
+}
+.calendar img {
+    width: 300px;
+    height: auto;
+}
+.year {
+    position: absolute;
+    top: 95px;
+    left: 42%;
+    transform: translateX(-50%);
+}
+.digit {
+    display: inline-block;
+    font-size: 70px;
+    color: #7c6868;
+    position: relative;
+    animation: wave 1s infinite;
+}
+.digit:nth-child(1) {
+    animation-delay: 0s;
+}
+.digit:nth-child(2) {
+    animation-delay: 0.25s;
+}
+.digit:nth-child(3) {
+    animation-delay: 0.5s;
+}
+.digit:nth-child(4) {
+    animation-delay: 0.75s;
+}
+@keyframes wave {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.newbook {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.newbook img {
+    width: 1000px;
+    height: auto;
+}

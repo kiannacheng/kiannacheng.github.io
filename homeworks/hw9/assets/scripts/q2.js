@@ -61,6 +61,7 @@ function closeLightbox(lightboxID) {
 }
 
 
+
 // This function class closeLightbox() for every .lightbox div - feel free to read it, but you do not have to understand it completely!
 function closeAllLightboxes() {
 	// get every .lightbox div, getElementsByClassName gives us an array 
@@ -76,3 +77,4 @@ function closeAllLightboxes() {
 }
 
 document.getElementById("lightbox-overlay").onclick = closeAllLightboxes;
+
